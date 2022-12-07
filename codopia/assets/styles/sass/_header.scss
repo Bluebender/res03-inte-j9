@@ -1,20 +1,19 @@
 body > header{
     background-color: rgba(0, 0, 0, 0.3);
-    height: 10vh;
+    
     display: grid;
-    grid-template-columns: 0.1fr 1fr;
+    
     color: white;
     > figure{
-        height: 10vh;
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         > img{
-            height: 80%;
+            width: 50%;
         }
     }
     > nav{
-        width: 50%;
         align-self: center;
         justify-self: center;   
         > ul{
@@ -33,6 +32,36 @@ body > header{
                     text-decoration: underline;
                 }
             }
+        }
+    }
+}
+#home > header{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#cours > header{
+    background-color: #010630;
+}
+
+@media (min-width: 768px){
+    body > header{
+        height: 10vh;
+        grid-template-columns: 0.1fr 1fr;
+        > figure > img{
+            width: 50%;
+        }
+        > nav{
+            width: 50%;
+        }
+    }
+}
+@media (max-width: 768px){
+    body > header{
+        grid-template-rows: 4vh 4vh;
+        > figure > img{
+            height: 100%;
+        }
+        > nav{
+            width: 80%;
         }
     }
 }
