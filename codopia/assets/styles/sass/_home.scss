@@ -1,0 +1,23 @@
+#home{
+    background: linear-gradient(rgba(14, 66, 143, 0.7), rgba(37, 115, 234, 0.7), rgba(14, 66, 143, 0.7)), url("https://res03.sites.3wa.io/assets/files/inte/j9/assets/img/code.jpeg");
+    > main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 85vh;
+        
+        > section{
+            > h2{
+                font-size: 8rem;
+                color: white;
+            }
+            > p{
+                font-size: 6.5rem;
+                color: #8ae7c3;
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,38 @@
+body > header{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    color: white;
+    > figure{
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        > img{
+            height: 80%;
+        }
+    }
+    > nav{
+        width: 50%;
+        align-self: center;
+        justify-self: center;   
+        > ul{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            > li{
+                display: inline;
+                font-size: 1.2rem;
+                font-weight: 500;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
