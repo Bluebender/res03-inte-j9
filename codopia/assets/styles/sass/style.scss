@@ -4,6 +4,7 @@
 @import "home.scss";
 @import "footer.scss";
 @import "cours.scss";
+@import "article.scss";
 
 .hidden{
     display: none;
@@ -11,5 +12,14 @@
 
 html{
     font-size: 14px;
-    font-family: 'Roboto Condensed', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    h1, h2, h3, h4{
+        font-family: 'Roboto Condensed', sans-serif;
+    }
 }
